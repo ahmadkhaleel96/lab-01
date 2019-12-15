@@ -1,0 +1,97 @@
+@media (min-width: 960px) {
+  
+    
+    * {
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+header{
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+}
+#div1{
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+#div2{
+    float: left;
+    height: 300px;
+    width: 300px;
+    clear: left;
+}
+footer{
+    clear: both;
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    * {
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+header{
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+}
+#div1{
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+#div2{
+    float: left;
+    height: 300px;
+    width: 300px;
+    clear: left;
+}
+footer{
+    clear: both;
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+}
+}  
+  
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    * {
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+header{
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+}
+#div1{
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+#div2{
+    float: left;
+    height: 300px;
+    width: 300px;
+    clear: left;
+}
+footer{
+    clear: both;
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+}
+}
+    
+  
