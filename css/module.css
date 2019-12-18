@@ -1,0 +1,14 @@
+
+/* phone view */
+
+@media (max-width: 768px) {
+.mid p{
+padding-top: 55px;
+}
+.half p{
+    padding-top: 125px;
+}
+}
+
+/* Desktop view */
+
