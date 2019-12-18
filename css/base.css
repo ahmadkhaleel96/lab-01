@@ -1,14 +1,23 @@
-body {
-    font-family: sans-serif;
-    color: black;
-    background-color: blanchedalmond;
-}
-main{
-    color: sienna;
-}
+/* phone */
+
+@media (max-width: 768px) {
+    body{
+    background-color: rgb(160, 157, 157);
+    }
 div{
-    background-color: red;
+    background-color: rgb(107, 88, 88);
+    text-align: center;
+}
 }
 
+/* Desktop */
 
-
+@media (min-width: 768px) {
+ body{
+     background: white;
+ }
+ div{
+     background-color: beige;
+     text-align: center;
+ }
+}
