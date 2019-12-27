@@ -1,74 +1,88 @@
 /* phone */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	body {
-		box-sizing: border-box;
-		width: 90%;
-		margin: 0 auto;
-	}
-	div {
-		border: 0.5px solid black;
-	}
-	.a {
-		height: 75px;
-	}
-	.b {
-		height: 150px;
-	}
-	.mid {
-		height: 125px;
-	}
-	.half {
-		float: left;
-		width: 49.75%;
-		height: 250px;
-	}
-
-	.i {
-		height: 80px;
-		clear: both;
-	}
-}
-
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows:  1fr ;
+    }
+    div{    
+        border: 1px solid black ;    
+    }
+    #a {
+     grid-row: 1;
+     grid-column: 1 /span 2;
+     height: 75px;
+    }
+    #b{
+        grid-row: 2;
+        grid-column: 1/span 2;
+        height: 150px;
+    }
+    #c{
+        grid-column: 1 /span 2;
+        grid-row: 3;
+        height: 125px;
+    }
+    #d{
+        grid-row: 4;
+        grid-column: 1 /span 2;
+        height: 125px;
+    }
+    #i{
+        grid-row: 7;
+        grid-column: 1 /span 2;
+        height: 80px;
+    }
+    .mid {
+        height: 250px;
+    }
 div p {
 	padding-top: 25px;
 }
-
+}
 @media (min-width: 768px) {
 	body {
-		box-sizing: border-box;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
 		width: 960px;
 		margin: 0 auto;
-	}
-	div {
+    }
+    div{
         border: 1px solid black;
-        float: left;
-	}
-	.a {
-		height: 100px;
-		width: 100%;
-	}
-	.b {
-        float: left;
-        width: 20.833333333%;
-        height: 600px;
     }
-    .mid{
-        float: left;
-        width: 39.2724%;
-        height: 200px;
-    }
-    .half{
-        float: left;
-        width: 19.5%;
-        height: 250px;
+    #a {
+        grid-row: 1;
+        grid-column: 1 /span 5;
+        height: 100px;
+       }
+       #b{
+           grid-row: 2 /span 6;
+           grid-column: 1;
+           height: 600px;
+       }
+        #c{
+            grid-row:2;
+            grid-column: 2 / span 2;
+            height: 200px;
+        }
+        #d{
+            grid-row: 2;
+            grid-column: 4 /span 2;
+            height: 200px;
+        }
+        .mid{
+            height: 250px;
+        }
+        #i{
+            grid-row: 4;
+            grid-column: 2 /span 4;
+            height: 150px;
+        }
 
-    }
-    .i{
-        float: left;
-        width: 78.55%;
-        height: 150px;
-    }
 }
 /* 
 @media (min-width: 481px) and (max-width: 767px) {
